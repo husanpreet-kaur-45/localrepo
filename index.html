@@ -3,62 +3,115 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Husanpreet Kaur - Portfolio</title>
     <link rel="stylesheet" href="style.css">
  </head>
  <!-- this is a body part -->
  <body>
-    <pre><h1><i>----------- MY PORTFOLIO -----------</i></h1></pre>
-    <img src="WhatsApp Image 2026-06-08 at 8.26.55 PM.jpeg" alt="husanpreet" width="150">
-      <pre><h3>NAME: Husanpreet Kaur</h3></pre>
-      <pre><h3>DATE OF BIRTH: 13-05-2008</h3></pre>
-      <pre><h3>PHONE: 7814544452</h3></pre>
-      <pre><h3>EMAIL: husanpreetkaur1358@gmail.com</h3></pre>
-      <pre><h3>ADDRESS: 123, ABC STREET, XYZ CITY</h3></pre>
-      <br>
-      <pre><h1><i>--------- QUALIFICATION ---------</i></h1></pre>
-      <table>
-         <tr>
-            <th>|Class|</th>
-            <th>|Board|</th>
-            <th>|Percentage|</th>
-            <th>|Passing Year|</th>
-         </tr>
-         <tr>
-            <td>|8th|</td>
-            <td>|PSBE|</td>
-            <td>|100%|</td>
-            <td>|2020-2021|</td>
-            </tr>
-            <tr>
-               <td>|10th|</td>
-               <td>|PSBE|</td>
-               <td>|56%|</td>
-               <td>|2022-2023|</td>
-            </tr>
-            <tr>
-               <td>|12th|</td>
-               <td>|PSBE|</td>
-               <td>|89%|</td>
-               <td>|2024-2025|</td>
-            </tr>
-      </table>
-      <br>
-      <pre><h1><i>--------- SKILLS ---------</i></h1></pre>
-      <pre><h3>• Programming Languages(Basics) : C, C++, Python</h3></pre>
-      <pre><h3>• Web Development : HTML</h3></pre>
-      <pre><h3>• AI & Technology : Basic Understanding of AI tools and Large Language Models(LLMs)</h3></pre>
-      <br>
-<pre><h1>------------ PROJECTS ------------</h1></pre>
-<pre><h3>1. Personal Portfolio Website (HTML)</h3></pre>
-<pre><h3>2. Calculator Application (C, C++)</h3></pre>
-<pre><h3>3. Number swapping program (C, C++)</h3></pre>
-<pre><h3>4. Student ID Card Generator (Python)</h3></pre>
-<pre><h3>5. Supermarket Billing System (Python)</h3></pre>
-<hr>
-<br>
-<pre><big>   enter feedback for this website   </big>  </pre>
-<input type="text" placeholder="Enter feedback ">
+    <!-- NAVBAR -->
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo">HP</div>
+            </div>
+            <div class="nav-search">
+                <input type="text" class="search-input" placeholder="Search...">
+                <span class="search-icon">🔍</span>
+            </div>
+            <div class="nav-account">
+                <p><span>Hello,</span> <span class="nev-second">Husanpreet</span></p>
+            </div>
+            <div class="nav-cart">
+                <p><span>Portfolio</span> <span class="nev-second">📄</span></p>
+            </div>
+        </div>
+    </header>
+
+    <!-- PORTFOLIO SECTION -->
+    <div class="container">
+        <div class="profile-section">
+            <h1>MY PORTFOLIO</h1>
+            <img src="WhatsApp Image 2026-06-08 at 8.26.55 PM.jpeg" alt="husanpreet" class="profile-img">
+            <div class="info">
+              <p><strong>NAME:</strong> Husanpreet Kaur</p>
+              <p><strong>DOB:</strong> 13-05-2008</p>
+              <p><strong>PHONE:</strong> 7814544452</p>
+              <p><strong>EMAIL:</strong> husanpreetkaur1358@gmail.com</p>
+              <p><strong>ADDRESS:</strong> 123, ABC Street, XYZ City</p>
+            </div>
+        </div>
+
+        <!-- QUALIFICATION SECTION -->
+        <section class="section">
+            <h2>QUALIFICATION</h2>
+            <table>
+                <tr>
+                    <th>Class</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Passing Year</th>
+                </tr>
+                <tr>
+                    <td>8th</td>
+                    <td>PSBE</td>
+                    <td>100%</td>
+                    <td>2020-2021</td>
+                </tr>
+                <tr>
+                    <td>10th</td>
+                    <td>PSBE</td>
+                    <td>56%</td>
+                    <td>2022-2023</td>
+                </tr>
+                <tr>
+                    <td>12th</td>
+                    <td>PSBE</td>
+                    <td>89%</td>
+                    <td>2024-2025</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="section">
+            <h2>SKILLS</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <strong>Programming Languages:</strong>
+                    <p>C, C++, Python</p>
+                </div>
+                <div class="skill-item">
+                    <strong>Web Development:</strong>
+                    <p>HTML, CSS</p>
+                </div>
+                <div class="skill-item">
+                    <strong>AI & Technology:</strong>
+                    <p>AI Tools, LLMs</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="section">
+            <h2>PROJECTS</h2>
+            <ul class="projects-list">
+                <li>Personal Portfolio Website (HTML)</li>
+                <li>Calculator Application (C, C++)</li>
+                <li>Number Swapping Program (C, C++)</li>
+                <li>Student ID Card Generator (Python)</li>
+                <li>Supermarket Billing System (Python)</li>
+            </ul>
+        </section>
+
+        <!-- FEEDBACK SECTION -->
+        <section class="section feedback-section">
+            <h2>FEEDBACK</h2>
+            <form>
+                <input type="text" placeholder="Enter your feedback" class="feedback-input">
+                <button type="submit" class="btn-submit">Submit</button>
+            </form>
+        </section>
+    </div>
 
  </body>
  </html>
